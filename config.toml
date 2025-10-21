@@ -1,0 +1,56 @@
+# This is a configuration file for the project.
+# It replaces the hardcoded values from macro definitions.
+
+# LSM Tree Configuration
+[lsm.core]
+# Memory table size limit (64MB)
+# LSM_TOL_MEM_SIZE_LIMIT = 67108864 # Calculated from 64 * 1024 * 1024 # 原来的 MemTable 容量限制
+LSM_TOL_MEM_SIZE_LIMIT = 33554432  # Calculated from 64 * 1024
+# Per-memory table size limit (4MB)
+# LSM_PER_MEM_SIZE_LIMIT = 4194304 # Calculated from 4 * 1024 * 1024 # 原来的单个 Skiplist 容量限制
+LSM_PER_MEM_SIZE_LIMIT = 1048576  # Calculated from 8 * 1024
+# Block size (32KB)
+# LSM_BLOCK_SIZE = 32768 # Calculated from 32 * 1024 # # 原来的单个 Block 容量限制
+LSM_BLOCK_SIZE = 32768  # Calculated from 1024
+# SST level size ratio
+# 4
+LSM_SST_LEVEL_RATIO = 2
+
+
+# LSM Block Cache Configuration
+[lsm.cache]
+# Block cache capacity
+LSM_BLOCK_CACHE_CAPACITY = 1024
+# Block history capacity
+LSM_BLOCK_CACHE_HISTORY_CAPACITY = 2048
+# LRU-K K value for cache
+LSM_BLOCK_CACHE_K = 8
+
+# Redis related headers and separators
+[redis]
+# Prefix for expiration time keys
+REDIS_EXPIRE_HEADER = "REDIS_EXPIRE_"
+# Prefix for hash value keys
+REDIS_HASH_VALUE_PREFFIX = "REDIS_HASH_VALUE_"
+# Prefix for hash field keys
+REDIS_FIELD_PREFIX = "REDIS_FIELD_"
+# Separator for hash fields
+REDIS_FIELD_SEPARATOR = "$" # Represented as a string
+# Separator for list elements
+REDIS_LIST_SEPARATOR = "#" # Represented as a string
+# Prefix for list
+REDIS_LIST_PREFIX = "REDIS_LIST_PREFIX_"
+# Prefix for sorted set keys
+REDIS_SORTED_SET_PREFIX = "REDIS_SORTED_SET_"
+# Length reserved for sorted set scores (as part of the key)
+REDIS_SORTED_SET_SCORE_LEN = 32
+# Prefix for set keys
+REDIS_SET_PREFIX = "REDIS_SET_"
+
+# Bloom Filter Configuration
+[bloom_filter]
+# Expected number of elements
+# BLOOM_FILTER_EXPECTED_SIZE = 65536
+BLOOM_FILTER_EXPECTED_SIZE = 1048576
+# Expected false positive rate
+BLOOM_FILTER_EXPECTED_ERROR_RATE = 0.1 # Represented as a float/double

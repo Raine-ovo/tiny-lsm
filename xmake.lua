@@ -243,15 +243,6 @@ target("scan_key")
     add_includedirs("include", {public = true})
     set_targetdir("$(builddir)/bin")
 
--- bench for multi-level compaction
-target("bench_compact")
-    set_kind("binary")
-    add_files("tools/compact_bench.cpp")
-    add_deps("lsm")
-    add_includedirs("include", {public = true})
-    add_packages("toml11", "spdlog")
-    set_targetdir("$(builddir)/bin")
-
 -- 定义server
 target("server")
     set_kind("binary")
@@ -261,18 +252,6 @@ target("server")
     add_packages("asio")
     set_targetdir("$(builddir)/bin")
     set_rundir("$(projectdir)");
-
-target("lsm_pybind")
-    set_kind("shared")
-    add_files("sdk/lsm_pybind.cpp")
-    add_packages("pybind11")
-    add_deps("lsm_shared")
-    add_includedirs("include", {public = true})
-    set_targetdir("$(builddir)/lib")
-    set_filename("lsm_pybind.so")  -- 确保生成的文件名为 lsm_pybind.so
-    add_ldflags("-Wl,-rpath,$ORIGIN")
-    add_defines("TONILSM_EXPORT=__attribute__((visibility(\"default\")))")
-    add_cxxflags("-fvisibility=hidden")  -- 隐藏非导出符号
 
 task("run-all-tests")
     set_category("plugin")

@@ -1,0 +1,321 @@
+[
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/block/linux/x86_64/release/src/block/block_cache.cpp.o", "src/block/block_cache.cpp"],
+  "file": "src/block/block_cache.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/block/linux/x86_64/release/src/block/block_iterator.cpp.o", "src/block/block_iterator.cpp"],
+  "file": "src/block/block_iterator.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/block/linux/x86_64/release/src/block/blockmeta.cpp.o", "src/block/blockmeta.cpp"],
+  "file": "src/block/blockmeta.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/block/linux/x86_64/release/src/block/block.cpp.o", "src/block/block.cpp"],
+  "file": "src/block/block.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/example/linux/x86_64/release/example/main.cpp.o", "example/main.cpp"],
+  "file": "example/main.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/g/gtest/v1.17.0/fe669f042f444a6cb3a06c810a609640/include", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/test_config/linux/x86_64/release/test/test_config.cpp.o", "test/test_config.cpp"],
+  "file": "test/test_config.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/g/gtest/v1.17.0/fe669f042f444a6cb3a06c810a609640/include", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/test_block/linux/x86_64/release/test/test_block.cpp.o", "test/test_block.cpp"],
+  "file": "test/test_block.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/g/gtest/v1.17.0/fe669f042f444a6cb3a06c810a609640/include", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/test_memtable/linux/x86_64/release/test/test_memtable.cpp.o", "test/test_memtable.cpp"],
+  "file": "test/test_memtable.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/g/gtest/v1.17.0/fe669f042f444a6cb3a06c810a609640/include", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/test_utils/linux/x86_64/release/test/test_utils.cpp.o", "test/test_utils.cpp"],
+  "file": "test/test_utils.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/wal/linux/x86_64/release/src/wal/record.cpp.o", "src/wal/record.cpp"],
+  "file": "src/wal/record.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/wal/linux/x86_64/release/src/wal/wal.cpp.o", "src/wal/wal.cpp"],
+  "file": "src/wal/wal.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/scan_key/linux/x86_64/release/example/scan_key.cpp.o", "example/scan_key.cpp"],
+  "file": "example/scan_key.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/g/gtest/v1.17.0/fe669f042f444a6cb3a06c810a609640/include", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/test_compact/linux/x86_64/release/test/test_compact.cpp.o", "test/test_compact.cpp"],
+  "file": "test/test_compact.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/debug/linux/x86_64/release/example/debug.cpp.o", "example/debug.cpp"],
+  "file": "example/debug.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm/linux/x86_64/release/src/lsm/level_iterator.cpp.o", "src/lsm/level_iterator.cpp"],
+  "file": "src/lsm/level_iterator.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm/linux/x86_64/release/src/lsm/transation.cpp.o", "src/lsm/transation.cpp"],
+  "file": "src/lsm/transation.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm/linux/x86_64/release/src/lsm/two_merge_iterator.cpp.o", "src/lsm/two_merge_iterator.cpp"],
+  "file": "src/lsm/two_merge_iterator.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm/linux/x86_64/release/src/lsm/engine.cpp.o", "src/lsm/engine.cpp"],
+  "file": "src/lsm/engine.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/redis/linux/x86_64/release/src/redis_wrapper/redis_wrapper.cpp.o", "src/redis_wrapper/redis_wrapper.cpp"],
+  "file": "src/redis_wrapper/redis_wrapper.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/logger/linux/x86_64/release/src/logger/logger.cpp.o", "src/logger/logger.cpp"],
+  "file": "src/logger/logger.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/sst/linux/x86_64/release/src/sst/concact_iterator.cpp.o", "src/sst/concact_iterator.cpp"],
+  "file": "src/sst/concact_iterator.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/sst/linux/x86_64/release/src/sst/sst_iterator.cpp.o", "src/sst/sst_iterator.cpp"],
+  "file": "src/sst/sst_iterator.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/sst/linux/x86_64/release/src/sst/sst.cpp.o", "src/sst/sst.cpp"],
+  "file": "src/sst/sst.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/config/linux/x86_64/release/src/config/config.cpp.o", "src/config/config.cpp"],
+  "file": "src/config/config.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/utils/linux/x86_64/release/src/utils/files.cpp.o", "src/utils/files.cpp"],
+  "file": "src/utils/files.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/utils/linux/x86_64/release/src/utils/bloom_filter.cpp.o", "src/utils/bloom_filter.cpp"],
+  "file": "src/utils/bloom_filter.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/utils/linux/x86_64/release/src/utils/std_file.cpp.o", "src/utils/std_file.cpp"],
+  "file": "src/utils/std_file.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/utils/linux/x86_64/release/src/utils/mmap_file.cpp.o", "src/utils/mmap_file.cpp"],
+  "file": "src/utils/mmap_file.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/g/gtest/v1.17.0/fe669f042f444a6cb3a06c810a609640/include", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/test_redis/linux/x86_64/release/test/test_redis.cpp.o", "test/test_redis.cpp"],
+  "file": "test/test_redis.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/g/gtest/v1.17.0/fe669f042f444a6cb3a06c810a609640/include", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/test_block_cache/linux/x86_64/release/test/test_block_cache.cpp.o", "test/test_block_cache.cpp"],
+  "file": "test/test_block_cache.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/skiplist/linux/x86_64/release/src/skiplist/skipList.cpp.o", "src/skiplist/skipList.cpp"],
+  "file": "src/skiplist/skipList.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/persist_debug/linux/x86_64/release/example/persist_debug.cpp.o", "example/persist_debug.cpp"],
+  "file": "example/persist_debug.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/g/gtest/v1.17.0/fe669f042f444a6cb3a06c810a609640/include", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/test_lsm/linux/x86_64/release/test/test_lsm.cpp.o", "test/test_lsm.cpp"],
+  "file": "test/test_lsm.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/iterator/linux/x86_64/release/src/iterator/iterator.cpp.o", "src/iterator/iterator.cpp"],
+  "file": "src/iterator/iterator.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/g/gtest/v1.17.0/fe669f042f444a6cb3a06c810a609640/include", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/test_sst/linux/x86_64/release/test/test_sst.cpp.o", "test/test_sst.cpp"],
+  "file": "test/test_sst.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/g/gtest/v1.17.0/fe669f042f444a6cb3a06c810a609640/include", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/test_blockmeta/linux/x86_64/release/test/test_blockmeta.cpp.o", "test/test_blockmeta.cpp"],
+  "file": "test/test_blockmeta.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/g/gtest/v1.17.0/fe669f042f444a6cb3a06c810a609640/include", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/test_skiplist/linux/x86_64/release/test/test_skiplist.cpp.o", "test/test_skiplist.cpp"],
+  "file": "test/test_skiplist.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/a/asio/1.36.0/6993b26c8f0d4558b334de677efa52e9/include", "-DNDEBUG", "-o", "build/.objs/server/linux/x86_64/release/server/src/handler.cpp.o", "server/src/handler.cpp"],
+  "file": "server/src/handler.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/a/asio/1.36.0/6993b26c8f0d4558b334de677efa52e9/include", "-DNDEBUG", "-o", "build/.objs/server/linux/x86_64/release/server/src/server.cpp.o", "server/src/server.cpp"],
+  "file": "server/src/server.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/memtable/linux/x86_64/release/src/memtable/memtable.cpp.o", "src/memtable/memtable.cpp"],
+  "file": "src/memtable/memtable.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fPIC", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm_shared/linux/x86_64/release/src/block/block_cache.cpp.o", "src/block/block_cache.cpp"],
+  "file": "src/block/block_cache.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fPIC", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm_shared/linux/x86_64/release/src/block/block_iterator.cpp.o", "src/block/block_iterator.cpp"],
+  "file": "src/block/block_iterator.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fPIC", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm_shared/linux/x86_64/release/src/block/blockmeta.cpp.o", "src/block/blockmeta.cpp"],
+  "file": "src/block/blockmeta.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fPIC", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm_shared/linux/x86_64/release/src/block/block.cpp.o", "src/block/block.cpp"],
+  "file": "src/block/block.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fPIC", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm_shared/linux/x86_64/release/src/lsm/level_iterator.cpp.o", "src/lsm/level_iterator.cpp"],
+  "file": "src/lsm/level_iterator.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fPIC", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm_shared/linux/x86_64/release/src/lsm/transation.cpp.o", "src/lsm/transation.cpp"],
+  "file": "src/lsm/transation.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fPIC", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm_shared/linux/x86_64/release/src/lsm/two_merge_iterator.cpp.o", "src/lsm/two_merge_iterator.cpp"],
+  "file": "src/lsm/two_merge_iterator.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fPIC", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm_shared/linux/x86_64/release/src/lsm/engine.cpp.o", "src/lsm/engine.cpp"],
+  "file": "src/lsm/engine.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fPIC", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm_shared/linux/x86_64/release/src/skiplist/skipList.cpp.o", "src/skiplist/skipList.cpp"],
+  "file": "src/skiplist/skipList.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fPIC", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm_shared/linux/x86_64/release/src/utils/files.cpp.o", "src/utils/files.cpp"],
+  "file": "src/utils/files.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fPIC", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm_shared/linux/x86_64/release/src/utils/bloom_filter.cpp.o", "src/utils/bloom_filter.cpp"],
+  "file": "src/utils/bloom_filter.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fPIC", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm_shared/linux/x86_64/release/src/utils/std_file.cpp.o", "src/utils/std_file.cpp"],
+  "file": "src/utils/std_file.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fPIC", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm_shared/linux/x86_64/release/src/utils/mmap_file.cpp.o", "src/utils/mmap_file.cpp"],
+  "file": "src/utils/mmap_file.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fPIC", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm_shared/linux/x86_64/release/src/sst/concact_iterator.cpp.o", "src/sst/concact_iterator.cpp"],
+  "file": "src/sst/concact_iterator.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fPIC", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm_shared/linux/x86_64/release/src/sst/sst_iterator.cpp.o", "src/sst/sst_iterator.cpp"],
+  "file": "src/sst/sst_iterator.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fPIC", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm_shared/linux/x86_64/release/src/sst/sst.cpp.o", "src/sst/sst.cpp"],
+  "file": "src/sst/sst.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fPIC", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm_shared/linux/x86_64/release/src/config/config.cpp.o", "src/config/config.cpp"],
+  "file": "src/config/config.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fPIC", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm_shared/linux/x86_64/release/src/iterator/iterator.cpp.o", "src/iterator/iterator.cpp"],
+  "file": "src/iterator/iterator.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fPIC", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm_shared/linux/x86_64/release/src/memtable/memtable.cpp.o", "src/memtable/memtable.cpp"],
+  "file": "src/memtable/memtable.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fPIC", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm_shared/linux/x86_64/release/src/wal/record.cpp.o", "src/wal/record.cpp"],
+  "file": "src/wal/record.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fPIC", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm_shared/linux/x86_64/release/src/wal/wal.cpp.o", "src/wal/wal.cpp"],
+  "file": "src/wal/wal.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fPIC", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm_shared/linux/x86_64/release/src/redis_wrapper/redis_wrapper.cpp.o", "src/redis_wrapper/redis_wrapper.cpp"],
+  "file": "src/redis_wrapper/redis_wrapper.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fPIC", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/lsm_shared/linux/x86_64/release/src/logger/logger.cpp.o", "src/logger/logger.cpp"],
+  "file": "src/logger/logger.cpp"
+},
+{
+  "directory": "/home/rainea/project/tiny-lsm",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-isystem", "/home/rainea/.xmake/packages/g/gtest/v1.17.0/fe669f042f444a6cb3a06c810a609640/include", "-isystem", "/home/rainea/.xmake/packages/t/toml11/v4.4.0/d9b5d9555a9849b0a8e5714c4e66d566/include", "-isystem", "/home/rainea/.xmake/packages/s/spdlog/v1.16.0/682a959367074d10b542f367ee9aa523/include", "-DNDEBUG", "-o", "build/.objs/test_wal/linux/x86_64/release/test/test_wal.cpp.o", "test/test_wal.cpp"],
+  "file": "test/test_wal.cpp"
+}]
